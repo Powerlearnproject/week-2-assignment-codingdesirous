@@ -1,0 +1,11 @@
+SELECT *FROM expenses;
+-- SELECT *FROM expenses;
+-- SELECT amount,date
+-- FROM expenses;
+-- SELECT 
+-- *FROM expenses
+-- WHERE date >='2020-1-30' AND date <'2021-1-1';
+-- SELECT *FROM expenses
+-- WHERE category like'%entertainment%';
+SELECT *FROM expenses
+WHERE amount >100;
